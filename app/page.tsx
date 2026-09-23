@@ -56,23 +56,17 @@ export default function Home() {
             gap: "12px",
           }}
         >
-          <div
+          {/* CODEX AI LOGO */}
+          <img
+            src="/cx-logo.png"
+            alt="CODEX AI"
             style={{
-              width: "38px",
-              height: "38px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
+              width: "42px",
+              height: "42px",
+              objectFit: "cover",
               borderRadius: "11px",
-              background:
-                "linear-gradient(135deg,#8b9cff,#a78bfa)",
-              color: "white",
-              fontSize: "12px",
-              fontWeight: 800,
             }}
-          >
-            CX
-          </div>
+          />
 
           <div>
             <div
@@ -190,8 +184,7 @@ export default function Home() {
             href="/dashboard"
             style={{
               padding: "14px 20px",
-              border:
-                "1px solid rgba(139,156,255,0.45)",
+              border: "1px solid rgba(139,156,255,0.45)",
               borderRadius: "11px",
               background:
                 "linear-gradient(135deg,#20294c,#151a2d)",
